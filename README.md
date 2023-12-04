@@ -7,9 +7,6 @@
 
 <h2>Internship Experience at Oasis Infobyte - Java Development</h2>
 
-<p><strong>Overview</strong></p>
-<p>I had the incredible opportunity to undertake an internship at Oasis Infobyte, a dynamic and innovative IT company known for its expertise in cutting-edge solutions. As an intern in Java Development, I was given the exciting task of working on a Number Guessing game.</p>
-
 <h2>Project Description - Number Guessing Game</h2>
 
 <p><strong>Task Overview</strong></p>
@@ -23,14 +20,3 @@
     <li><strong>Game Logic Implementation:</strong> I coded the core logic of the Number Guessing game, incorporating features such as tracking the number of attempts, providing hints to the player, and declaring the game outcome.</li>
     <li><strong>Documentation:</strong> Throughout the development process, I maintained clear and concise documentation, providing insights into the code structure, functionality, and any potential improvements for future development.</li>
 </ul>
-
-<h2>Learning Experience</h2>
-
-<p>This internship at Oasis Infobyte provided me with invaluable hands-on experience in Java development. I gained insights into the software development life cycle, improved my problem-solving skills, and enhanced my proficiency in Java programming.</p>
-
-<h2>Conclusion</h2>
-
-<p>My time at Oasis Infobyte was a transformative learning experience. Working on the Number Guessing game allowed me to apply theoretical knowledge to a real-world project, and I am excited to continue contributing to such impactful initiatives in the field of Java development.</p>
-
-</body>
-</html>
