@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Guess {
+public class GuessTheNumber {
     // Method to return the hangman stages based on the incorrect guesses
     static String stage(int count) {
         String[] stages = {
@@ -31,7 +31,7 @@ public class Guess {
         System.out.println("The Random Number is between 1 to 100 ");
         System.out.println("-----Welcome-----");
 
-        int randomNum = rand(); // Generate a random number
+        int randomNum = randomNoFunc(); // Generate a random number
         boolean condition = true; // Condition for the while loop
         int count = 7; // Lives for hangman
 
@@ -45,7 +45,7 @@ public class Guess {
                 String repeat = sc.next();
                 if (repeat.equals("y")) {
                     count = 7;
-                    randomNum = rand();
+                    randomNum = randomNoFunc();
                     System.out.println("Enter the guess number: ");
                 } else {
                     System.out.println("Thank you for playing :)");
@@ -86,7 +86,7 @@ public class Guess {
     }
 
     // Method to generate a random number between 1 and 100
-    static int rand() {
+    static int randomNoFunc() {
         int randomNum = (int) (Math.random() * 100) + 1;
         return randomNum;
     }
