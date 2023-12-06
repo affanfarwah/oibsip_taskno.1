@@ -62,7 +62,7 @@ public class GuessTheNumber {
                 String repeat = sc.next();
                 if (repeat.equals("y")) {
                     count = 7;
-                    randomNum = rand();
+                    randomNum = randomNoFunc();
                     System.out.println("Enter the guess number: ");
                 } else {
                     System.out.println("Thank you for playing :)");
